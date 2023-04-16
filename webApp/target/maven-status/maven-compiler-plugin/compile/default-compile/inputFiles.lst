@@ -1,5 +1,7 @@
-/Users/nathis/Lab-05/webApp/src/main/java/edu/eci/cvds/servlet/model/Todo.java
-/Users/nathis/Lab-05/webApp/src/main/java/edu/eci/cvds/servlet/SampleServlet.java
-/Users/nathis/Lab-05/webApp/src/main/java/edu/eci/cvds/servlet/Service.java
-/Users/nathis/Lab-05/webApp/src/main/java/edu/eci/cvds/servlet/OurFirstServlet.java
-/Users/nathis/Lab-05/webApp/src/main/java/guessBean/BackingBean.java
+/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/guessBean/UserBean.java
+/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/guessBean/Main.java
+/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/edu/eci/cvds/servlet/Service.java
+/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/edu/eci/cvds/servlet/SampleServlet.java
+/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/edu/eci/cvds/servlet/OurFirstServlet.java
+/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/edu/eci/cvds/servlet/model/Todo.java
+/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/guessBean/BackingBean.java
