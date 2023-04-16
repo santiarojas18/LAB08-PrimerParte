@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml"
+       xmlns:h="http://java.sun.com/jsf/html"
+       xmlns:p="http://primefaces.org/ui"
+       xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+       xmlns:f="http://java.sun.com/jsf/core">
+ <h:head>
+ </h:head>
+ <h:body>
+       <h:form id="welcome_form">
+       	<h1>Bienvenido</h1>
+       		<br/>
+       	<p>Ingrese su nombre</p>
+       	<p:inputText binding="#{nameWritten}"/>
+       	<br/>
+       	<p:commandButton value="Ingresar" update="welcome_form" actionListener="#{userBean.setUserName(nameWritten.value)}" onclick="window.location.href='guess.xhtml'"/>
+       </h:form>
+ </h:body>
+</html>
