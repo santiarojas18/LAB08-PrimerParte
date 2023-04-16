@@ -50,6 +50,9 @@ Se creó el archivo faces-config.xml, para que los beans de JSF se usará como b
 </faces-config>
 ```   
 
-```
 En el archivo guess.xhtml, las referencias a "guessBean' se cambiaron a "backingBean".   
 Por último, en el pom.xml, la versión de primefaces usada fue la 6.0.   
+Compilando y ejecutando el comando `mvn spring-boot:run`, se despliega la aplicación web:
+<img width=70% height=70% alt="image" src="https://user-images.githubusercontent.com/123812331/232346195-5f4ce53a-dc17-4ac0-b9b2-ac24d838f874.png">
+
+
