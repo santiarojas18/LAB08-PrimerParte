@@ -2,6 +2,8 @@
 ## Santiago Arévalo Rojas
 ## Juan Felipe Sánchez Pérez
 
+# PARTE I. INTEGRACIÓNDE SPRING CONEL PROYECTO WEB.   
+
 ### Logar desplegar la página que muestran en el tutorial:  
 <img src='https://user-images.githubusercontent.com/123812766/231905055-979c37e2-dd56-4859-9233-76bddac52725.png' width=50% height=50%/>
 
@@ -61,4 +63,7 @@ Se crea la clase "UserBean", teniendo como atributo userName.
 
 #### Se le dé la bienvenida al juego y tenga un botón “Iniciar”, elcual una vez se presione direccione a la página anteriormente creada en donde el jugador podrá jugar.   
 Se creó un archivo welcome.xhtml, resolviendo el requerimiento anterior.   
+
+# PARTE II. INTEGRACIÓNDE SPRING DATA CONEL PROYECTO WEB   
+
 
