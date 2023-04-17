@@ -2,7 +2,7 @@
 ## Santiago Arévalo Rojas
 ## Juan Felipe Sánchez Pérez
 
-# PARTE I. INTEGRACIÓNDE SPRING CONEL PROYECTO WEB.   
+# PARTE I. INTEGRACIÓN DE SPRING CON EL PROYECTO WEB.   
 
 ### Logar desplegar la página que muestran en el tutorial:  
 <img src='https://user-images.githubusercontent.com/123812766/231905055-979c37e2-dd56-4859-9233-76bddac52725.png' width=50% height=50%/>
