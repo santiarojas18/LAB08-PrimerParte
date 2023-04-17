@@ -6,12 +6,14 @@ import java.util.Random;
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import javax.faces.bean.ViewScoped;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
 @ManagedBean(name = "guessBean")
-@SessionScoped
+@Scope("session")
 /**
  * Backing-Bean of session for each user, for  "guess the number" game
  * @author Santiago Arévalo y Juan Sánchez
