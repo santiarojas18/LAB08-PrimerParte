@@ -64,6 +64,6 @@ Se crea la clase "UserBean", teniendo como atributo userName.
 #### Se le dé la bienvenida al juego y tenga un botón “Iniciar”, elcual una vez se presione direccione a la página anteriormente creada en donde el jugador podrá jugar.   
 Se creó un archivo welcome.xhtml, resolviendo el requerimiento anterior.   
 
-# PARTE II. INTEGRACIÓNDE SPRING DATA CONEL PROYECTO WEB   
+# PARTE II. INTEGRACIÓN DE SPRING DATA CON EL PROYECTO WEB   
 
 
