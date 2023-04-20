@@ -58,7 +58,7 @@ Compilando y ejecutando el comando `mvn spring-boot:run`, se despliega la aplica
 <img width=70% height=70% alt="image" src="https://user-images.githubusercontent.com/123812331/232346195-5f4ce53a-dc17-4ac0-b9b2-ac24d838f874.png">
 
 ### Crear un página de bienvenida en donde:   
-#### Se le pida el nombre del jugador. (Esta información se debe almacenaren un Bean detipo Aplicación llamado ‘UserBean’).   
+#### Se le pida el nombre del jugador. (Esta información se debe almacenaren un Bean de tipo Aplicación llamado ‘UserBean’).   
 Se crea la clase "UserBean", teniendo como atributo userName.
 
 #### Se le dé la bienvenida al juego y tenga un botón “Iniciar”, elcual una vez se presione direccione a la página anteriormente creada en donde el jugador podrá jugar.   
