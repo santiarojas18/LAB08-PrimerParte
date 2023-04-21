@@ -1,3 +1,7 @@
-edu/eci/cvds/servlet/Service.class
-edu/eci/cvds/servlet/OurFirstServlet.class
-guessBean/BackingBean.class
+edu\eci\cvds\servlet\OurFirstServlet.class
+guessBean\faces\BackingBean.class
+guessBean\faces\UserBean.class
+guessBean\Main.class
+edu\eci\cvds\servlet\model\Todo.class
+edu\eci\cvds\servlet\SampleServlet.class
+edu\eci\cvds\servlet\Service.class

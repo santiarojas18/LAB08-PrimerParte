@@ -1,7 +1,10 @@
-/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/guessBean/UserBean.java
-/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/guessBean/Main.java
-/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/edu/eci/cvds/servlet/Service.java
-/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/edu/eci/cvds/servlet/SampleServlet.java
-/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/edu/eci/cvds/servlet/OurFirstServlet.java
-/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/edu/eci/cvds/servlet/model/Todo.java
-/Users/nathis/LAB08-PrimerParte/webApp/src/main/java/guessBean/BackingBean.java
+C:\Users\juan.sanchez-pe\Downloads\LAB08-PrimerParte\webApp\src\main\java\guessBean\data\ConfigurationRepository.java
+C:\Users\juan.sanchez-pe\Downloads\LAB08-PrimerParte\webApp\src\main\java\guessBean\Main.java
+C:\Users\juan.sanchez-pe\Downloads\LAB08-PrimerParte\webApp\src\main\java\guessBean\faces\BackingBean.java
+C:\Users\juan.sanchez-pe\Downloads\LAB08-PrimerParte\webApp\src\main\java\guessBean\faces\UserBean.java
+C:\Users\juan.sanchez-pe\Downloads\LAB08-PrimerParte\webApp\src\main\java\guessBean\data\Configuration.java
+C:\Users\juan.sanchez-pe\Downloads\LAB08-PrimerParte\webApp\src\main\java\edu\eci\cvds\servlet\Service.java
+C:\Users\juan.sanchez-pe\Downloads\LAB08-PrimerParte\webApp\src\main\java\edu\eci\cvds\servlet\SampleServlet.java
+C:\Users\juan.sanchez-pe\Downloads\LAB08-PrimerParte\webApp\src\main\java\guessBean\data\ConfigurationService.java
+C:\Users\juan.sanchez-pe\Downloads\LAB08-PrimerParte\webApp\src\main\java\edu\eci\cvds\servlet\OurFirstServlet.java
+C:\Users\juan.sanchez-pe\Downloads\LAB08-PrimerParte\webApp\src\main\java\edu\eci\cvds\servlet\model\Todo.java
