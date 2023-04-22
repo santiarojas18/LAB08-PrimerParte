@@ -1,7 +1,10 @@
 edu\eci\cvds\servlet\OurFirstServlet.class
 guessBean\faces\BackingBean.class
+guessBean\data\Configuration.class
 guessBean\faces\UserBean.class
 guessBean\Main.class
 edu\eci\cvds\servlet\model\Todo.class
 edu\eci\cvds\servlet\SampleServlet.class
+guessBean\data\ConfigurationRepository.class
 edu\eci\cvds\servlet\Service.class
+guessBean\data\ConfigurationService.class
