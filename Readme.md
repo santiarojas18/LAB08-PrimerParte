@@ -85,11 +85,28 @@ obtenga de la base de datos el valor del premio:100
 ■ PROPIEDAD: VARCHAR
 ■ VALOR: VARCHAR
 
+Para la funcionalidad solicitada se agregan las dependencias necesarias al pom.xml para poder manejar la conexión a la base de datos MySql, además se crea una clase llamada Configuration la cual será la que se guarde la información en la base de datos, para indicar esto se hace por medio de la anotación @Entity, adicional a esto creamos las respectivas clases de servicios y de repositorio.
+
 #### Agregar un registro:
 
 ■ En la columna PROPIEDAD colocar el valor: “Premio”
 ■ En la columna VALOR colocar el valor: “100”.
 
+En el BackingBean es donde se agrega el premio a la base de datos y se consulta, lo hacemos por medio del siguiente método:
+``` 	@Bean(name = "database")
+    public CommandLineRunner run() throws Exception {
+        return (args) -> {
+            configurationService.addConfiguration(new Configuration("premio","200000"));
+            dbReward = Integer.parseInt(configurationService.getValorOfPremio());
+            setCurrentPrize(dbReward);
+        };
+    }
+```
+
 ### Crear la funcionalidad que obtenga ese valor de base de datos una vez se ingrese al juego (presión del botón iniciar).
 
-Para la funcionalidad solicitada se agregan las dependencias necesarias al pom.xml para poder manejar la conexión a la base de datos MySql, además se crea una clase llamada Configuration la cual será la que se guarde la información en la base de datos, para indicar esto se hace por medio de la anotación @Entity, adicional a esto creamos las respectivas clases de servicios y de repositorio.
+Luego al ejecutar la aplicación, se evidencia que el valor del premio es de 200000, como fue agregado en la base de datos:
+
+<img width=40% height=40% alt="image" src="https://user-images.githubusercontent.com/123812766/233756065-513e9a65-c125-443d-bfc1-334572094cb5.png">
+
+
