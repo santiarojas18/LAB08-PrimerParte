@@ -87,4 +87,4 @@ obtenga de la base de datos el valor del premio:100
 ■ En la columna VALOR colocar el valor: “100”.
 ###Crear la funcionalidad que obtenga ese valor de base de datos una vez se ingrese al juego (presión del botón iniciar).
 
-Para la funcionalidad solicitada se agregan las dependencias necesarias al pom.xml para poder manejar la conexión a la base de datos MySql, además se crea una clase llamada Configuration la cual será la que se guarde la información en la base de datos, para indicar esto se hace por medio de la anotación
+Para la funcionalidad solicitada se agregan las dependencias necesarias al pom.xml para poder manejar la conexión a la base de datos MySql, además se crea una clase llamada Configuration la cual será la que se guarde la información en la base de datos, para indicar esto se hace por medio de la anotación @Entity, adicional a esto creamos las respectivas clases de servicios y de repositorio.
