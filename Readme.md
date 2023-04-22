@@ -62,8 +62,29 @@ Compilando y ejecutando el comando `mvn spring-boot:run`, se despliega la aplica
 Se crea la clase "UserBean", teniendo como atributo userName.
 
 #### Se le dé la bienvenida al juego y tenga un botón “Iniciar”, elcual una vez se presione direccione a la página anteriormente creada en donde el jugador podrá jugar.   
-Se creó un archivo welcome.xhtml, resolviendo el requerimiento anterior.   
+Se creó un archivo welcome.xhtml, resolviendo el requerimiento anterior.
+Una vez montado el servicio e ingresando a la página web de bienvenida:
+
+<img width=50% height=50% alt="image" src="https://user-images.githubusercontent.com/123812766/233754282-1b4eba8d-8b85-43f0-b3c6-f8fffabc7777.png">
+
+Ingresando el nombre del usuario:
+
+<img width=50% height=50% alt="image" src="https://user-images.githubusercontent.com/123812766/233754349-14ad4775-8870-4b13-a261-d8b6aae1021a.png">
+
+Y al ingresar al juego, se evidencia que efectivamente se obtuvo el nombre del jugador:
+
+<img width=50% height=50% alt="image" src="https://user-images.githubusercontent.com/123812766/233754382-817fe776-fbcd-471b-9c5f-0f6784eb7084.png">
 
 # PARTE II. INTEGRACIÓN DE SPRING DATA CON EL PROYECTO WEB   
 
+###Tomando lo logrado en el laboratorio 7 (La conexión con la base de datos que corre en Docker),se deberá integrar alsistema de tal forma qué se
+obtenga de la base de datos el valor del premio:100
+####Crear una tabla llamada CONFIGURATION con dos columnas:
+■ PROPIEDAD: VARCHAR
+■ VALOR: VARCHAR
+####Agregar un registro:
+■ En la columna PROPIEDAD colocar el valor: “Premio”
+■ En la columna VALOR colocar el valor: “100”.
+###Crear la funcionalidad que obtenga ese valor de base de datos una vez se ingrese al juego (presión del botón iniciar).
 
+Para la funcionalidad solicitada se agregan las dependencias necesarias al pom.xml para poder manejar la conexión a la base de datos MySql, además se crea una clase llamada Configuration la cual será la que se guarde la información en la base de datos, para indicar esto se hace por medio de la anotación
